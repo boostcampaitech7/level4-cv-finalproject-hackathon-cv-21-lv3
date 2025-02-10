@@ -58,7 +58,7 @@ generate:
   num_beams: 4
   do_sample: False
   min_length: 1
-  temperature: 0.9
+  temperature: 1.0
   top_p: 0.9
   repetition_penalty: 1.0
   length_penalty: 1.0
