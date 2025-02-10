@@ -18,7 +18,7 @@ model:
   whisper_path: "distil-whisper/distil-large-v3"
   beats_path: "/data/audiolm-evaluator/audiolm-trainer/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt"
 
-  token: "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"  # Use hf token to access gated repositories
+  token: ""  # Use hf token to access gated repositories
 
   ckpt: "/data/ahn/audiolm-evaluator/audiolm-trainer/outputs_stage1_only/202502101124/checkpoint_best.pth" # you may put stage1 checkpoint .pth path in here
 

@@ -20,7 +20,7 @@ model:
   # whisper_path: "openai/whisper-large-v2"
   beats_path: "/data/audiolm-evaluator/audiolm-trainer/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2/BEATs_iter3_plus_AS2M_finetuned_on_AS2M_cpt2.pt"
 
-  token: "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"  # Use hf token to access gated repositories
+  token: ""  # Use hf token to access gated repositories
 
   ckpt: "" #"model ckpt" # if not "", load model from ckpt for training or evaluation
 
