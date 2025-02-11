@@ -127,7 +127,7 @@ def main(args):
             hyp = [result.split(generate_cfg.end_sym)[0].lower() for result in results]
             hyps.extend(hyp)
 
-            if not args.skip_scoring:
+            if 'text' in samples:
                 refs.extend(samples["text"])
 
     if not args.skip_scoring:
