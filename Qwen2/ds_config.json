@@ -1,0 +1,26 @@
+{
+    "zero_optimization": {
+      "stage": 3,
+      "offload_optimizer": {
+        "device": "cpu",
+        "pin_memory": true
+      },
+      "offload_param": {
+        "device": "cpu",
+        "pin_memory": true
+      },
+      "overlap_comm": true,
+      "contiguous_gradients": true,
+      "reduce_bucket_size": 50000000,
+      "stage3_prefetch_bucket_size": 50000000,
+      "stage3_param_persistence_threshold": 100000
+    },
+    "fp16": {
+      "enabled": true
+    },
+    "activation_checkpointing": {
+      "partition_activations": true,
+      "contiguous_memory_optimization": true
+    }
+  }
+  
